@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap');
+
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+
+:root {
+  --bg-color: #fff;
+  --text-color: #1e3851;
+  --bg-color-dark: #333;
+  --text-color-dark: #fff;
+  --heading-color:#1e3851;
+}
+
+.light-theme {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.dark-theme {
+  background-color: var(--bg-color-dark);
+  color: var(--text-color);
+}
+
+.navbar-brand h1 span {
+  color: #4e5ca6;
+  background-color: #f5f5f5;
+  padding: 0px 10px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.navbar-brand h1 {
+  position: relative;
+  color: #01051d;
+}
+.dark-theme .navbar-brand h1 {
+  position: relative;
+  color: #fff;
+}
+.dark-theme .navbar-nav .nav-item a{
+  color: #fff;
+}
+.dark-theme .content_wrap h5{
+  color: #fff;
+}
+.navbar{background-color:#fff;}
+
+.dark-theme .navbar.navbar-expand-lg {
+  background-color: #333;
+}
+.light-theme .container-fluid.nav_bg {
+  border-bottom: 2px solid #f6f6f6;
+}
+.dark-theme .container-fluid.nav_bg {
+  border-bottom: 2px solid #424242;
+}
+.dark-theme .card_info{
+background-color: #333;
+}
+.dark-theme .card_info h3{
+  color: #fff;
+}
+.dark-theme .card_info p{
+  color: #fff;
+}
+
+
+.navbar-nav .nav-item a {
+color:#0d2438;
+  font-weight: 700;
+
+  }
+.navbar-nav .nav-item a.nav-link.active {
+color:#4f46ef;
+/* border-bottom: 2px solid #3600cc; */
+font-weight: 700;
+}
+
+.animated{animation: up-down 2s ease-in-out infinite alternate-reverse both;}
+
+@keyframes up-down {
+  0%{transform: translateY(10px);}
+  100%{transform: translateY(-10px);}
+}
+
+.light-mode ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+.light-mode ul li a button.btn.btn-light i {
+  font-size: 20px;
+  color: #1e3851;
+  font-weight: 500;
+  transition: all ease-in 0.4s;
+}
+.light-mode ul li a button.btn.btn-light i:hover {
+  color: #bfbfbf;
+  transition: all ease-in 0.4s;
+}
+.content_wrap h1 {
+  color: #1e3851;
+  font-weight: 700;
+}
+
+.dark-theme .content_wrap h1 {
+  color: #fff;
+  font-weight: 700;
+}
+.light-theme ul li a button.btn.btn-light {
+  background: #f7f8fc;
+  border: transparent;
+}
+
+.content_wrap p.sub-title {
+  color: #6b7280;
+  font-size: 30px;
+  font-weight: 600;
+}
+.dark-theme .content_wrap p.sub-title {
+  color: #fff;
+}
+
+.content_wrap a.custom_color {
+  background: #eef2ff;
+  padding: 10px 15px;
+  color: #6b7280;
+  border-radius: 10px;
+  font-size: 17px;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  text-decoration: none;
+  transition: all ease-in 0.4s;
+  border: 1px solid #6366f1;
+  font-weight: 500;
+  cursor: pointer;
+}
+.dark-mode .content_wrap a.custom_color {
+  background: #fff;
+  color: #1e3851;
+  border: 1px solid #fff;
+}
+.content_wrap a.custom_color:hover {
+  background: #6366f1;
+  color: #fff;
+  transition: all ease-in 0.4s;
+  border: 1px solid #6366f1;
+}
+.dark-mode .content_wrap a.custom_color:hover {
+  background: #6366f1;
+  color: #fff;
+  transition: all ease-in 0.4s;
+  border: 1px solid #6366f1;
+}
+.dark-mode .form-label {
+  color: #333;
+}
+.dark-mode h3 {
+  color: #333;
+}
+.dark-mode p {
+  color: #333;
+}
+
+.light-mode ul li a button {
+  background: #6366f1;
+  border: 1px solid #6366f1;
+  font-weight: 500;
+  color:#fff;
+}
+.light-mode ul li a button:hover {
+  background: #4548cd;
+  border: 1px solid #4548cd;
+  font-weight: 500;
+  color:#fff;
+}
+/* card */
+.card_info {
+  padding: 15px 20px;
+}
+.new_btn a {
+  text-decoration: none;
+  color: #fff;
+}
+/* cpntact form */
+
+.contact_wrap {
+  background-color: #f1f1f1;
+  padding: 50px;
+  margin-top: 50px;
+  border-radius: 7px;
+}
+

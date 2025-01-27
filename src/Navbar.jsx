@@ -25,14 +25,14 @@ const [theme, setTheme] = useState("light-theme");
       <nav className="navbar navbar-expand-lg">
   <div className="container-fluid">
     {/* <NavLink className="navbar-brand" to="/"><img src={logo} alt="" /></NavLink> */}
-    <NavLink className="navbar-brand" to="/"><h1><span>MD</span> Pintu</h1></NavLink>
+    <NavLink className="navbar-brand active" to="/"><h1><span>MD</span> Pintu</h1></NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse custom-ml-auto" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto lg-0">
         <li className="nav-item">
-          <NavLink className="nav-link" aria-current="page" to="/">Home</NavLink>
+          <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
         </li>
         <li className="nav-item">
           <NavLink className="nav-link" to="/about">About Me</NavLink>

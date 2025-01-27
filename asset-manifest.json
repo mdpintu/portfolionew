@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolionew/static/css/main.d134cce7.css",
+    "main.js": "/portfolionew/static/js/main.dea009ac.js",
+    "static/js/453.83234151.chunk.js": "/portfolionew/static/js/453.83234151.chunk.js",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolionew/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/about.jpg": "/portfolionew/static/media/about.2a5afc547b929d304ed3.jpg",
+    "static/media/fontawesome-webfont.eot": "/portfolionew/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolionew/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolionew/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolionew/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/pintu-resume.pdf": "/portfolionew/static/media/pintu-resume.46903f2ddd9876ffc131.pdf",
+    "static/media/banner.svg": "/portfolionew/static/media/banner.ef097afbc427c634086d2f1c2ad6032e.svg",
+    "index.html": "/portfolionew/index.html",
+    "main.d134cce7.css.map": "/portfolionew/static/css/main.d134cce7.css.map",
+    "main.dea009ac.js.map": "/portfolionew/static/js/main.dea009ac.js.map",
+    "453.83234151.chunk.js.map": "/portfolionew/static/js/453.83234151.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d134cce7.css",
+    "static/js/main.dea009ac.js"
+  ]
+}
